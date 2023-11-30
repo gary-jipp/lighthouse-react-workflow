@@ -1,8 +1,39 @@
-# React + Vite
+# React Workflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* [ ] Quick Review of React Concepts
+* [ ] Plan and Build a React App
+* [ ] Tools
+* [ ] Planning
+* [ ] Application Data
+* [ ] Component Driven Design
+* [ ] Components Content
+* [ ] Components Behavior
+* [ ] Components Props and State
+* [ ] Coding Components in Isolation
+* [ ] Mock Data & Mock Servers
+* [ ] Putting Components all Together
+* [ ] Build the Finished Product for Production
 
-Currently, two official plugins are available:
+- What is React?
+ - Component based Development
+ - declaritive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- What is a react component
+ - function that returns JSX
+
+- What  is JSX
+ - markup language for React - transpiled into javascript
+
+- Components Render
+- What does  "Render" mean?
+ - call the component function
+
+- What causes a Render?
+ - change of state (`setState()`)
+ - `setState()`
+ - `array.push(5)`
+ - `setArray(array)`
+ - `setArray([...array, 5])`
+
+- How does react know that state has changed?
+ - Reference-Equality Optimization

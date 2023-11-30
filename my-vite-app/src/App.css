@@ -1,44 +1,48 @@
 .App {
   margin: 1em;
   text-align: center;
-}
-
-.App {
-  border: grey solid;
+  /* border: grey solid; */
+  min-height: 14em;
 }
 
 .Header {
-  border: blue solid thin;
+  /* border: lightgrey solid 2px ; */
+  font-family: cursive;
+  /* border-bottom: lightgrey solid 2px ; */
   min-height: 2em;
-  background: #EEE;
+  margin: .2em;
+  min-height: 5em;
+}
+
+.LoginRoute {
+  /* border: red solid 2px ; */
+  min-height: 12em;
   margin: .2em
 }
 
-.LoginPage {
-  border: red solid;
-  min-height: 6em;
-  background: #2DD;
-  margin: .2em
-}
-
-.MainPage {
-  border: red solid;
-  min-height: 6em;
-  background: #BDD;
+.Friends {
+  /* border: red solid 2px ;
+  background: LightBlue; */
+  min-height: 12em;
   margin: .2em
 }
 
 .Input {
-  border: green solid thin;
+  /* border: green solid 2px ;
+  background: LightGreen; */
   min-height: 2em;
-  background: #BAD;
   margin: .2em
 }
 
 .FriendList {
-  border: green solid thin;
+  /* border: green solid 2px ; */
   min-height: 4em;
-  background: #BBD;
+  margin: .2em
+}
+
+.FriendListItem {
+  /* border: magenta solid 2px ; */
+  min-height: 1em;
   margin: .2em
 }
 
@@ -87,9 +91,7 @@ li:hover a {
   color: white;
 }
 
-span {}
-
 button {
-  padding: 4px;
+  padding: 2px;
   margin: 4px 2px 4px 2px;
 }
